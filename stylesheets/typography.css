@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Amatic Bold';
+    src: url('../typography/Amatic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amatic Regular';
+    src: url('../typography/AmaticSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
