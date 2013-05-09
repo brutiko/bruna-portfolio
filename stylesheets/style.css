@@ -48,9 +48,11 @@ body {
 
 .related {
   box-sizing: border-box;
-  margin: 0 5px 0 80%;
+  margin: 130px 5px 0 80%;
   padding: 0 10px 10px;
   width: 20%;
+  position: fixed;
+  right: 20px;
 }
 
 .related img {
