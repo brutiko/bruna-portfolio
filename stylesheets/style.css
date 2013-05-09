@@ -29,21 +29,24 @@ body {
   margin-bottom: 30px;
 }
 
-.name-box h1 {
+.name-box h1 a {
   color: #333;
+  display: inline-block;
   font-family: 'Amatic Regular', Arial, sans-serif;
   font-size: 50px;
   line-height: 50px;
   margin: 0 0 10px 0;
+  text-decoration: none;
 }
 
-.name-box span {
+.name-box span a {
   background: #028fb2;
   color: #fff;
   font-family: 'Amatic Regular', Arial, sans-serif;
   font-size: 40px;
   line-height: 40px;
   padding: 0 3px;
+  text-decoration: none;
 }
 
 .related {
