@@ -122,7 +122,7 @@ header {
 
 .content {
   float: left;
-  margin: 0 0 150px;
+  margin: 0 5px 150px 0;
   width: 26%;
 }
 
@@ -165,11 +165,8 @@ header {
 }
 
 .box-hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
-  font-family: 'Abel', arial, sans-serif;
-  font-size: 1.3em;
-  font-weight: normal;
   position: absolute;
   top: 0;
   left: 0;
@@ -181,13 +178,19 @@ header {
 
 .box-hover h2 {
   color: #fff;
-  font-size: 1em;
+  font-size: 1.7em;
+  font-family: 'Amatic Regular', Arial, sans-serif;
+  line-height: 1.2em;
+  margin-bottom: 5px;
 }
 
 .box-hover span {
-  color: #f1f3f4;
+  color: #eeac0e;
+  display: block;
   font-family: Arial, sans-serif;
-  font-size: 0.7em;
+  font-size: 0.8em;
+  line-height: 0.8em;
+  margin-bottom: 5px;
 }
 
 .box-hover p {
@@ -308,10 +311,11 @@ header {
   font-family: 'Amatic Regular', Arial, sans-serif;
   font-size: 22px;
   font-weight: normal;
+  margin-bottom: 5px;
 }
 
 .related-links ul {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .related-links a,
@@ -319,7 +323,8 @@ header {
   color: #000;
   font-family: 'Abel', arial, sans-serif;
   font-size: 1.2em;
-  display: block;
+  line-height: 1.2em;
+  display: inline-block;
   text-decoration: none;
   padding: 5px;
 }
@@ -329,7 +334,7 @@ header {
 .related-links a.active,
 .related-contact a.active {
   background: #028fb2;
-  color: #000;
+  color: #fff;
 }
 
 .related-links li a {
@@ -337,9 +342,6 @@ header {
   font-family: Georgia, serif;
   font-size: 14px;
   font-style: italic;
-}
-
-.related-links li a:hover {
 }
 
 .related-contact a {
