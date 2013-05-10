@@ -228,8 +228,11 @@ body {
 }
 
 .project-content {
-  width: 95%;
+  border-left: 1px dotted #666;
+  box-sizing: border-box;
   margin: auto;
+  padding: 0 20px;
+  width: 100%;
 }
 
 .project-description {
