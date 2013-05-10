@@ -228,8 +228,13 @@ body {
 }
 
 .project-content {
-  margin-left: 27%;
-  width: 73%;
+  width: 95%;
+  margin: auto;
+}
+
+.project-description {
+  margin: auto;
+  width: 95%;
 }
 
 .project-content h1 {
@@ -274,11 +279,13 @@ body {
   background: #fff;
   box-sizing: border-box;
   margin-bottom: 100px;
+  max-width: 95%;
+  margin: auto;
 }
 
 .project-content figure {
-  margin: 0 0 40px;
-  max-width: 90%;
+  margin: 0 auto 5px;
+  max-width: 100%;
 }
 
 .project-content figure script {
