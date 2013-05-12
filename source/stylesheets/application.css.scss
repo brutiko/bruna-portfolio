@@ -204,8 +204,8 @@ header {
 }
 
 .box-hover {
+  @include box-sizing(border-box);
   background: rgba(0, 0, 0, 0.8);
-  box-sizing: border-box;
   position: absolute;
   top: 0;
   left: 0;
