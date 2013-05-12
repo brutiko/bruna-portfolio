@@ -264,6 +264,11 @@ header {
   margin-left: 0;
 }
 
+.project {
+  float: left;
+  width: 80%;
+}
+
 .project-content {
   border-left: 1px dotted #666;
   box-sizing: border-box;
@@ -315,7 +320,7 @@ header {
   margin-bottom: 40px;
 }
 
-.project-content .display-images {
+.project-content .project-images {
   background: #fff;
   box-sizing: border-box;
   margin-bottom: 100px;
