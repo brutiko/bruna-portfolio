@@ -53,11 +53,16 @@ header {
   margin-left: 45%;
 }
 
+.name-box h1 {
+  margin: 0;
+}
+
 .name-box h1 a {
   color: #333;
   display: inline-block;
   font-family: 'Amatic Regular', Arial, sans-serif;
   font-size: 50px;
+  font-weight: normal;
   line-height: 50px;
   margin: 0 0 10px 0;
   text-decoration: none;
@@ -75,7 +80,7 @@ header {
 
 .related {
   box-sizing: border-box;
-  margin: 100px 5px 0 80%;
+  margin-left: 80%;
   padding: 0 10px 10px;
   width: 20%;
 }
@@ -205,8 +210,10 @@ header {
   color: #fff;
   font-size: 1.7em;
   font-family: 'Amatic Regular', Arial, sans-serif;
+  font-weight: normal;
   line-height: 1.2em;
   margin-bottom: 5px;
+  margin-top: 0;
 }
 
 .box-hover span {
@@ -221,6 +228,7 @@ header {
 .box-hover p {
   color: #999;
   font-size: 12px;
+  margin: 0;
 }
 
 .box:hover .box-hover {
@@ -333,13 +341,14 @@ header {
   margin-bottom: 50px;
 }
 
-.related-links {
-  margin-bottom: 40px;
-  padding-top: 30px;
-}
-
 .all-projects {
   margin-bottom: 30px;
+}
+
+.related-links ul {
+  margin-bottom: 30px;
+  list-style: none;
+  padding: 0;
 }
 
 .related-links h2 {
@@ -348,10 +357,6 @@ header {
   font-size: 22px;
   font-weight: normal;
   margin-bottom: 5px;
-}
-
-.related-links ul {
-  margin-bottom: 30px;
 }
 
 .related-links a,
