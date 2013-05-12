@@ -1,0 +1,9 @@
+@mixin contact-link {
+  color: #000;
+  font-family: 'Abel', arial, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px;
+}
