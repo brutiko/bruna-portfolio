@@ -1,22 +1,19 @@
-$(function(){ // document ready
+$(function() {
+  function stickySidebar(window, $) {
+    if ($('.sticky')) {
+      var stickyTop = $('.sticky').offset().top;
 
-  if (!!$('.sticky').offset()) { // make sure ".sticky" element exists
+      $(window).scroll(function() {
+        var windowTop = $(window).scrollTop();
 
-    var stickyTop = $('.sticky').offset().top; // returns number
+        if (stickyTop < windowTop) {
+          $('.sticky').css({ position: 'fixed', top: 0 });
+        } else {
+          $('.sticky').css('position', 'static');
+        }
+      });
+    }
+  };
 
-    $(window).scroll(function(){ // scroll event
-
-      var windowTop = $(window).scrollTop(); // returns number
-
-      if (stickyTop < windowTop){
-        $('.sticky').css({ position: 'fixed', top: 0 });
-      }
-      else {
-        $('.sticky').css('position','static');
-      }
-
-    });
-
-  }
-
+  stickySidebar(window, jQuery);
 });
