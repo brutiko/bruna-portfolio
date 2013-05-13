@@ -151,12 +151,17 @@ header {
 
   .bruna-description {
     float: left;
-    margin-right: 30px;
-    width: 70%;
+    margin-right: 10px;
+    width: 80%;
   }
 
-  .bruna-photo img {
+  .bruna-photo {
+    margin-left: 80%;
+
+    img {
     margin-top: 30px;
+    max-width: 100%;
+    }
   }
 
   h1 {
