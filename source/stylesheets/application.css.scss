@@ -319,11 +319,6 @@ header {
   }
 }
 
-.project {
-  float: left;
-  width: 80%;
-}
-
 .project-content {
   border-left: 1px dotted #666;
   box-sizing: border-box;
@@ -334,14 +329,16 @@ header {
   h1 {
     color: #000;
     font-size: 1.375em;
-    margin-bottom: 5px;
+    font-weight: normal;
+    margin: 0 0 5px;
   }
 
   h2 {
     color: #999;
     font-size: 0.875em;
+    font-weight: normal;
     font-style: italic;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
   }
 
   p {
@@ -373,7 +370,7 @@ header {
     background: #fff;
     box-sizing: border-box;
     margin-bottom: 100px;
-    max-width: 95%;
+    max-width: 800px;
     margin: auto;
   }
 
@@ -399,7 +396,7 @@ header {
 
 .project-description {
   margin: auto;
-  width: 95%;
+  max-width: 800px;
 }
 
 .follow {
