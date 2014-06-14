@@ -119,7 +119,7 @@ header {
   }
 
   h2 {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: Georgia, 'Palatino', serif;
     font-size: 1.5em;
     font-weight: normal;
   }
@@ -172,7 +172,8 @@ header {
   }
 
   p {
-    font-size: 1em;
+    font-family: Georgia, 'Palatino', serif;
+    font-size: 0.875em;
     margin-top: 10px;
 
     span {
@@ -326,15 +327,16 @@ header {
 
   h2 {
     color: #999;
-    font-size: 1em;
+    font-family: Georgia, 'Palatino', sans-serif;
+    font-size: 0.875em;
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
     margin: 0 0 20px;
   }
 
   h3 {
     color: #333;
-    font-size: 1em;
+    font-size: 0.875em;
     font-weight: bold;
     font-style: normal;
     margin: 0 0 5px;
@@ -342,9 +344,10 @@ header {
 
   p {
     color: #333;
-    font-size: 1em;
-    margin: 0 0 20px;
-    max-width: 90%;
+    font-family: Georgia, 'Palatino', sans-serif;
+    font-size: 0.875em;
+    margin: 10px 0 40px;
+    max-width: 100%;
   }
 
   a {
