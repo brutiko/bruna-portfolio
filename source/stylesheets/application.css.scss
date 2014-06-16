@@ -135,6 +135,43 @@ header {
   padding: 0 40px;
   overflow: hidden;
 
+  a {
+    color: #028fb2;
+    display: block;
+    font-size: 0.875em;
+    height: 25px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    width: 186px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .mobile-number {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.875em;
+    height: 25px;
+    margin: 0 0 4px;
+    text-decoration: none;
+    width: 186px;
+  }
+
+  .contact-icons {
+    background: url('/images/social-media-sprite.png') no-repeat;
+    display: block;
+    float: left;
+    height: 25px;
+    margin: 0 6px 0 0;
+    text-indent: -1000px;
+    width: 25px;
+  }
+
+  span.email-icon { background-position: 0 2px;}
+  span.twitter-icon { background-position: -44px 2px;}
+  span.mobile-icon { background-position: -81px 2px;}
+
   .bruna-description {
     float: left;
     margin-right: 10px;
