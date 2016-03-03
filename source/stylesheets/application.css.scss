@@ -33,16 +33,15 @@ body {
 }
 
 .board {
-  float: left;
   width: 100%;
 }
 
 header {
+  background: #f1f2f3;
   overflow: hidden;
 }
 
 .name-box {
-  margin-bottom: 30px;
   float: left;
 
   h1 {
@@ -54,7 +53,7 @@ header {
     color: #333;
     display: inline-block;
     font-family: 'Amatic SC', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 20px;
     line-height: 50px;
     margin: 0 0 10px 0;
     text-decoration: none;
@@ -88,8 +87,9 @@ header {
   font-size: 14px;
   font-style: italic;
   line-height: 20px;
-  margin-left: 45%;
+  margin: auto;
   max-width: 490px;
+  text-align: center;
 
   h1 {
     margin: 0;
@@ -254,17 +254,21 @@ header {
 }
 
 .wrapper-content {
-  border-top: 1px solid #ccc;
   overflow: hidden;
   margin: 0 auto 60px;
   max-width: 90%;
-  padding-top: 10px;
+}
+
+.title-section {
+  font-size: 40px;
+  margin: 40px 0 30px;
+  text-align: center;
 }
 
 .filters {
 
   ul {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
 
     li {
@@ -530,10 +534,8 @@ header {
 
 footer {
   background: #E6036C;
-  bottom: 0;
   display: block;
   height: 50px;
-  position: absolute;
   width: 100%;
 
   ul {
