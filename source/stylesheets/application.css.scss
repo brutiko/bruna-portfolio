@@ -30,7 +30,6 @@ body {
   width: 100%;
   margin: auto;
   height: 100%;
-  padding-top: 30px;
 }
 
 .board {
@@ -69,6 +68,17 @@ header {
     line-height: 40px;
     padding: 0 3px;
     text-decoration: none;
+  }
+}
+
+.navbar {
+  float: left;
+  margin-left: 50%;
+
+  li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 10px;
   }
 }
 
@@ -244,15 +254,39 @@ header {
 }
 
 .wrapper-content {
+  border-top: 1px solid #ccc;
   overflow: hidden;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
+  max-width: 90%;
+  padding-top: 10px;
+}
+
+.filters {
+
+  ul {
+    margin-bottom: 30px;
+    text-align: center;
+
+    li {
+      color: #666;
+      display: inline;
+      font-size: 14px;
+      list-style-type: none;
+      margin: 5px 20px;
+    }
+
+    li:hover {
+      color: red;
+    }
+  }
+  
 }
 
 .box {
-  background: orange;
+  background: gray;
   max-width: 600px;
   position: relative;
-  margin: 10px 5px;
+  margin: 4px 2px;
   z-index: 1;
 
   a {
