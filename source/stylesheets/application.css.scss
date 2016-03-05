@@ -43,6 +43,20 @@ header {
   padding-top: 10px;
 }
 
+.button-more {
+  color: #333;
+  border: 1px #ccc solid;
+  float: right;
+  margin: 20px 2px 0 0;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  &:hover {
+    background: #FFAB40;
+    border: 1px #FFAB40 solid;
+  }
+}
+
 .name-box {
   float: left;
 
@@ -91,7 +105,6 @@ header {
   font-size: 18px;
   font-style: italic;
   line-height: 24px;
-  max-width: 55%;
   margin-top: 20px;
 
   h1 {
@@ -292,6 +305,16 @@ header {
     font-size: 30px;
     margin: 40px 0 24px;
     text-align: left;
+  }
+
+  .definition-box {
+    float: left;
+  }
+
+  .section-description {
+    font-size: 30px;
+    line-height: 34px;
+    margin-left: 50%;
   }
 }
 
