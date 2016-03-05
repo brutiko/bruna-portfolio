@@ -37,7 +37,7 @@ body {
 }
 
 header {
-  border-top: 5px solid #ffc107;
+  border-top: 5px solid #FFAB40;
   height: 50px;
   overflow: hidden;
   padding-top: 10px;
@@ -258,8 +258,13 @@ header {
 
 .wrapper-content {
   overflow: hidden;
-  margin: 0 auto 60px;
+  margin: 0 auto 80px;
   max-width: 85%;
+}
+
+.wrapper-full {
+  background: #f1f2f3;
+  padding: 40px 0 80px;
 }
 
 .section-title {
@@ -268,7 +273,7 @@ header {
 }
 
 .divider {
-  background: #ffc107;
+  background: #FFAB40;
   display: block;
   height: 6px;
   width: 60px;
@@ -276,8 +281,8 @@ header {
 
 #definition {
   border-bottom: 1px #ccc dotted;
-  margin: 36px 0 70px;
-  padding-bottom: 80px;
+  margin: 36px 0 80px;
+  padding: 40px 0 100px;
 
   .section-title {
     font-size: 30px;
@@ -308,6 +313,7 @@ header {
 }
 
 #my-projects {
+
   .divider {
     margin: 0 0 20px;
   }
@@ -653,4 +659,9 @@ footer {
       }
     }
   }
+}
+
+#about {
+  margin: auto;
+  width: 85%;
 }
