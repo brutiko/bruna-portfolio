@@ -40,12 +40,18 @@ header {
   border-top: 5px solid #FFAB40;
   height: 50px;
   overflow: hidden;
-  padding-top: 10px;
+  padding-top: 5px;
+}
+
+.header-content {
+  margin: auto;
+  width: 85%;
 }
 
 .button-more {
   color: #333;
   border: 1px #ccc solid;
+  font-size: 14px;
   float: right;
   margin: 30px 2px 0 0;
   padding: 10px 20px;
@@ -54,11 +60,13 @@ header {
   &:hover {
     background: #FFAB40;
     border: 1px #FFAB40 solid;
+    color: #fff;
   }
 }
 
 .name-box {
   float: left;
+  margin-top: 10px;
 
   h1 {
     margin: 0;
@@ -90,7 +98,6 @@ header {
 .navbar {
   font-size: 14px;
   float: right;
-  margin-right: 40px;
 
   li {
     display: inline;
@@ -98,12 +105,14 @@ header {
     margin: 0 20px;
   }
 
-  a {
+  a,
+  a:visited {
     color: #333;
     text-decoration: none;
   }
 
-  a:hover {
+  a:hover,
+  a:active {
     color: #FFAB40;
     border-bottom: 5px solid #FFAB40;
     padding-bottom: 10px; 
@@ -287,7 +296,7 @@ header {
 }
 
 .wrapper-full {
-  padding: 40px 0 100px;
+  padding: 60px 0 100px;
   width: 100%;
 }
 
@@ -433,8 +442,8 @@ header {
 
   h2 {
     color: #fff;
-    font-size: 1.7em;
-    font-family: 'Roboto Condensed', Arial, sans-serif;
+    font-size: 1.3em;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: normal;
     line-height: 1.2em;
     margin-bottom: 5px;
@@ -628,6 +637,42 @@ header {
   color: #fff;
 }
 
+#home-contact {
+  margin: 0 auto 100px;
+  width: 85%;
+}
+
+#home-about {
+  margin: 0 0 0 20%;
+  width: 85%;
+
+  img {
+    float: left;
+    margin: 0 40px 0 0;
+    max-width: 250px;
+  }
+}
+
+.home-about-content {
+  margin: 20px 0 0 290px;
+  max-width: 50%;
+
+  p {
+    margin-bottom: 30px;
+  }
+  /*span {
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+    margin-left: 70%;
+    width: 22%;
+  }*/
+}
+
+#home-about .button-more {
+  float: none;
+}
+
 footer {
   display: block;
   height: 50px;
@@ -721,35 +766,6 @@ footer {
         margin-left: 5px;
       }
     }
-  }
-}
-
-#home-about,
-#home-contact {
-  margin: auto;
-  width: 85%;
-}
-
-.home-about-content {
-  margin: 80px auto 80px;
-
-  img {
-    float: left;
-    margin: 0 40px 0 0;
-    max-width: 250px;
-  }
-
-  p {
-    float: left;
-    max-width: 40%;
-    margin: 0;
-  }
-
-  span {
-    font-size: 26px;
-    padding-left: 70%;
-    line-height: 30px;
-    display: block;
   }
 }
 
