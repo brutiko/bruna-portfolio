@@ -37,8 +37,10 @@ body {
 }
 
 header {
-  background: #f1f2f3;
+  border-top: 5px solid #ffc107;
+  height: 50px;
   overflow: hidden;
+  padding-top: 10px;
 }
 
 .name-box {
@@ -71,25 +73,26 @@ header {
 }
 
 .navbar {
-  float: left;
-  margin-left: 50%;
+  color: #000;
+  font-size: 14px;
+  float: right;
+  margin-right: 40px;
 
   li {
     display: inline;
     list-style-type: none;
-    margin: 0 10px;
+    margin: 0 20px;
   }
 }
 
-.site-description {
+.section-description {
   color: #666;
   display: block;
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
-  line-height: 20px;
-  margin: auto;
-  max-width: 490px;
-  text-align: center;
+  line-height: 24px;
+  max-width: 55%;
+  margin-top: 20px;
 
   h1 {
     margin: 0;
@@ -256,13 +259,31 @@ header {
 .wrapper-content {
   overflow: hidden;
   margin: 0 auto 60px;
-  max-width: 90%;
+  max-width: 85%;
 }
 
-.title-section {
-  font-size: 40px;
-  margin: 40px 0 30px;
-  text-align: center;
+.section-title {
+  font-size: 30px;
+  margin: 40px 0 24px;
+}
+
+.divider {
+  background: #ffc107;
+  display: block;
+  height: 6px;
+  width: 60px;
+}
+
+#definition {
+  border-bottom: 1px #ccc dotted;
+  margin: 36px 0 70px;
+  padding-bottom: 80px;
+
+  .section-title {
+    font-size: 30px;
+    margin: 40px 0 24px;
+    text-align: left;
+  }
 }
 
 .filters {
@@ -284,6 +305,12 @@ header {
     }
   }
   
+}
+
+#my-projects {
+  .divider {
+    margin: 0 0 20px;
+  }
 }
 
 .box {
