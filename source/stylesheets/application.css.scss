@@ -8,7 +8,7 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4em;
   height: 100%;
@@ -68,8 +68,9 @@ header {
   h1 a {
     color: #333;
     display: inline-block;
-    font-family: 'Amatic SC', Arial, sans-serif;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
     font-size: 20px;
+    font-weight: 400;
     line-height: 50px;
     margin: 0 0 10px 0;
     text-decoration: none;
@@ -78,7 +79,7 @@ header {
   span a {
     background: #028fb2;
     color: #fff;
-    font-family: 'Amatic SC', Arial, sans-serif;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
     font-size: 40px;
     line-height: 40px;
     padding: 0 3px;
@@ -103,7 +104,6 @@ header {
   color: #666;
   display: block;
   font-size: 18px;
-  font-style: italic;
   line-height: 24px;
   margin-top: 20px;
 
@@ -113,7 +113,7 @@ header {
     a {
       color: #333;
       display: inline-block;
-      font-family: 'Amatic SC', Arial, sans-serif;
+      font-family: 'Roboto Condensed', Arial, sans-serif;
       font-size: 50px;
       font-weight: normal;
       line-height: 50px;
@@ -125,7 +125,7 @@ header {
   span a {
     background: #028fb2;
     color: #fff;
-    font-family: 'Amatic SC', Arial, sans-serif;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
     font-size: 40px;
     line-height: 40px;
     padding: 0 3px;
@@ -176,7 +176,7 @@ header {
   }
 
   .mobile-number {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 0.875em;
     height: 25px;
     margin: 0 0 4px;
@@ -285,7 +285,10 @@ header {
 }
 
 .section-title {
+  color: #333;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 30px;
+  font-weight: 500;
   margin: 40px 0 24px;
 }
 
@@ -299,21 +302,43 @@ header {
 #definition {
   border-bottom: 1px #ccc dotted;
   margin: 36px 0 80px;
-  padding: 60px 0 200px;
+  padding: 80px 0 220px;
 
   .section-title {
-    font-size: 30px;
-    margin: 40px 0 24px;
+    color: #000;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 10px 0 30px;
     text-align: left;
   }
 
   .definition-box {
     float: left;
+    width: 100%;
+
+    h2 {
+      color: #999;
+      font-family: 'Roboto', serif;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 30px;
+      margin-top: 20px;
+    }
+
+    .section-description {
+      font-weight: 200;
+      margin: 0 0 0 50%;
+    }
+  }
+
+  .definition-name {
+    float: left;
   }
 
   .section-description {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 28px;
     margin-left: 50%;
   }
 }
@@ -398,7 +423,7 @@ header {
   h2 {
     color: #fff;
     font-size: 1.7em;
-    font-family: 'Amatic SC', Arial, sans-serif;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
     font-weight: normal;
     line-height: 1.2em;
     margin-bottom: 5px;
@@ -552,7 +577,7 @@ header {
 
   h2 {
     color: #000;
-    font-family: 'Amatic SC', Arial, sans-serif;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
     font-size: 1.4em;
     font-weight: normal;
     margin-bottom: 5px;
@@ -564,7 +589,7 @@ header {
 
   li a {
     color: #028fb2;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 0.85em;
     font-style: normal;
   }
