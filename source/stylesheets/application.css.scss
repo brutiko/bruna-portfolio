@@ -583,6 +583,73 @@ header {
 .project-description {
   margin: auto;
   max-width: 800px;
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    list-style: none;
+    padding: 0 4px;
+
+    a {
+      color: #FFAB40;
+      text-decoration: none;
+    }
+  }
+}
+
+.projects-related {
+  border-top: 1px solid #666;
+  margin: 40px auto 0;
+  max-width: 800px;
+  padding-top: 40px;
+
+  ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    float: left;
+    list-style: none;
+    margin: 0 4px 0;
+    width: 32%;
+
+    h1 {
+    color: #333;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0;
+    text-decoration: none;
+  }
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+
+  li:last-child {
+    margin-right: 0;
+  }
+
+  a {
+    text-decoration: none;
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+}
+
+.clear {
+  clear: both;
 }
 
 .follow {
