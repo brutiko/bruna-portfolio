@@ -751,6 +751,8 @@ header {
 }
 
 footer {
+  background: #333;
+  color: #fff;
   display: block;
   height: 50px;
   width: 100%;
@@ -858,9 +860,11 @@ footer {
 }
 
 .register {
+  color: #fff;
   display: block;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 12px;
+  font-weight: 300;
   float: none;
   margin: 60px auto 20px;
   text-align: right;
