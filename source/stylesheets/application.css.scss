@@ -177,9 +177,8 @@ header {
 }
 
 .about-content {
-  border-left: 1px dotted #666;
-  padding: 0 40px;
   overflow: hidden;
+  padding-top: 60px;
 
   a {
     color: #028fb2;
@@ -225,43 +224,66 @@ header {
   }
 
   .bruna-photo {
-    margin-left: 80%;
 
     img {
-    margin-top: 30px;
+    margin-top: 10px;
     max-width: 100%;
     }
   }
 
-  h1 {
-    color: #000;
-    font-size: 1em;
-    font-weight: 600;
-    margin: 0 20px 0 0;
-
-    small {
-      font-size: 0.7em;
-      font-style: normal;
-      font-weight: 200;
-    }
+  small {
+    font-size: 0.7em;
+    font-style: normal;
+    font-weight: 200;
   }
 
-  h3 {
-    color: #000;
-    font-size: 0.875em;
-    font-style: normal;
-    font-weight: 600;
-    margin-top: 30px;
+  .section-description {
+    float: left;
+    width: 70%;
+  }
+}
+
+.curriculum-description {
+  border-top : 1px solid #ccc;
+  margin-top: 50px;
+  padding-top: 50px;
+
+  .curriculum-box {
+    float: left;
+    width: 41%;
+  }
+
+  .education-box,
+  .skill-box {
+    margin-left: 50%;
+  }
+
+  h4 {
+    margin: 2px 0;
+  }
+
+  a {
+    color: #FF9100;
+    text-decoration: none;
+    font-weight: 400;
   }
 
   p {
-    font-family: Georgia, 'Palatino', serif;
-    font-size: 0.875em;
-    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 2px 0;
+  }
 
-    span {
-      font-weight: 600;
-    }
+  small {
+    color: #666;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .extra-box {
+    width: 41%;
+    margin-top: 40px;
   }
 }
 
@@ -501,49 +523,13 @@ header {
   padding: 0;
   width: 85%;
 
-  h1 {
-    /*color: #000;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 0 0 5px;*/
-  }
-
-  h2 {
-    /*color: #999;
-    font-family: Georgia, 'Palatino', sans-serif;
-    font-size: 0.875em;
-    font-weight: normal;
-    font-style: italic;
-    margin: 0 0 20px;*/
-  }
-
-  h3 {
-    font-weight: 500;
-/*    color: #333;
-    font-size: 0.875em;
-    font-weight: bold;
-    font-style: normal;
-    margin: 0 0 5px;*/
-  }
-
-  p {
-    color: #333;
-    font-weight: 300;
-    /*color: #333;
-    font-family: Georgia, 'Palatino', sans-serif;
-    font-size: 0.875em;
-    margin: 10px 0 40px;
-    max-width: 100%;*/
-  }
-
   a {
-    /*color: #028fb2;
-    font-style: italic;
-    text-decoration: none;*/
+    color: #FF9100;
+    text-decoration: none;
 
-    /*&:hover {
+    &:hover {
       text-decoration: underline;
-    }*/
+    }
   }
 
   span {
