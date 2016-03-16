@@ -165,7 +165,7 @@ header {
   }
 
   h2 {
-    font-family: Georgia, 'Palatino', serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 1.5em;
     font-weight: normal;
   }
@@ -250,12 +250,20 @@ header {
 
   .curriculum-box {
     float: left;
-    width: 41%;
+    width: 43%;
   }
 
-  .education-box,
-  .skill-box {
+  .education-box {
     margin-left: 50%;
+  }
+
+  .divider {
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
   h4 {
@@ -266,6 +274,7 @@ header {
     color: #FF9100;
     text-decoration: none;
     font-weight: 400;
+    font-size: 14px;
   }
 
   p {
@@ -277,13 +286,31 @@ header {
   small {
     color: #666;
     display: block;
-    font-size: 14px;
-    margin-bottom: 40px;
+    font-size: 12px;
+    float: left;
+    margin-right: 20px;
+    text-align: left;    
+    width: 118px;
+  }
+
+  .curriculum-details {
+    /*border-left: 1px solid #ccc;*/
+    margin: 0 0 30px 138px;
+    padding: 0 0 20px 0;
+    border-bottom: 1px dotted #ccc;
   }
 
   .extra-box {
     width: 41%;
     margin-top: 40px;
+  }
+
+  .skill-box {
+    margin: 80px 0 0 50%;
+
+    .curriculum-details {
+      margin-left: 0;
+    }
   }
 }
 
@@ -589,13 +616,18 @@ header {
       text-decoration: none;
     }
   }
+
+  p {
+    color: #333;
+    font-weight: 300;
+  }
 }
 
 .projects-related {
   border-top: 1px solid #666;
   margin: 40px auto 0;
   max-width: 800px;
-  padding-top: 40px;
+  padding: 40px 0 80px 0;
 
   ul {
     width: 100%;
@@ -706,7 +738,7 @@ header {
 }
 
 #home-about {
-  margin: 0 0 0 20%;
+  margin: auto;
   width: 85%;
 
   img {
@@ -717,7 +749,7 @@ header {
 }
 
 .home-about-content {
-  margin: 20px 0 0 290px;
+  margin: 20px 0 0 0;
   max-width: 50%;
 
   p {
