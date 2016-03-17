@@ -659,12 +659,17 @@ header {
     width: 32%;
 
     h1 {
-    color: #333;
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    margin: 10px 0;
-    text-decoration: none;
+      font-family: "Roboto", Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 5px 0;
+      text-decoration: none;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      margin-top: 5px;
     }
   }
 
@@ -677,6 +682,7 @@ header {
   }
 
   a {
+    color: #FF9100;
     text-decoration: none;
     width: 100%;
   }
