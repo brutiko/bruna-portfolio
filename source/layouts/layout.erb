@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:400,300,300italic,400italic,700,700italic|Roboto+Mono:400,100,300,100italic,300italic,400italic,500,500italic,700,700italic|Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag 'all.css' %>
     <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' %>
+    <%= javascript_include_tag 'jquery-2.2.2.min.js' %>
     <%= javascript_include_tag 'all.js' %>
 
     <!--[if lt IE 8]>
@@ -40,7 +41,7 @@
                 <li><a href="/index.html">HOME</a></li>
                 <li><a href="/projects.html">PROJECTS</a></li>
                 <li><a href="/about.html">ABOUT</a></li>
-                <li><a href="/contact.html">CONTACT</a></li>
+                <!-- <li><a href="/contact.html">CONTACT</a></li> -->
               </ul>
             </nav>
           </div>
@@ -49,39 +50,6 @@
         <%= yield %>
       </section>
 
-      <!-- <aside class="related">
-        <div class="related-links sticky">
-          <ul>
-            <li><h2>Strategic and Research</h2></li>
-            <li><a href="/projects/rice-bean.html">Rice and bean</a></li>
-            <li><a href="/projects/barbearia-miranda.html">Miranda Barbershop</a></li>
-            <li><a href="/projects/nodus.html">Nodus</a></li>
-            <li><a href="/projects/agora.html">Ágora</a></li>
-          </ul>
-          <ul>
-            <li><h2>Web and Application</h2></li>
-            <li><a href="/projects/plataformatec-website.html">Plataformatec website</a></li>
-            <li><a href="/projects/autoseg-website.html">Autoseg website</a></li>
-            <li><a href="/projects/soccerex.html">Soccerex</a></li>
-            <li><a href="/projects/espaco-arte.html">Espaço Arte</a></li>
-          </ul>
-          <ul>
-            <li><h2>Graphic</h2></li>
-            <li><a href="/projects/emporio-gourmet.html">Emporium Gourmet</a></li>
-            <li><a href="/projects/plataformatec.html">Plataformatec Branding</a></li>
-            <li><a href="/projects/autoseg.html">Autoseg Branding</a></li>
-            <li><a href="/projects/elixir.html">Elixir logo</a></li>
-          </ul>
-          <ul>
-            <li><h2>More</h2></li>
-            <li><a href="/sobre.html">About</a></li>
-          </ul>
-          <div class="related-contact">
-            <span>brunakochi@gmail.com</span>
-            <span>+55 11 949 566 356</span>
-          </div>
-        </div>
-      </aside> -->
       <footer class="wrapper-full">
         <section id="home-contact">
           <div class="be-contact">
@@ -107,4 +75,6 @@
     </section>
   </body>
 </html>
+
+
 
