@@ -66,7 +66,7 @@ header {
 
 .name-box {
   float: left;
-  margin-top: 10px;
+  margin-top: 3px;
 
   h1 {
     margin: 0;
@@ -128,9 +128,9 @@ header {
 .section-description {
   color: #666;
   display: block;
-  font-size: 18px;
+  font-size: 3.625em;
   font-weight: 200;
-  line-height: 26px;
+  line-height: 1.150em;
   margin-top: 20px;
 
   h1 {
@@ -362,8 +362,9 @@ header {
 .section-title {
   color: #333;
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 1.250em;
   font-weight: 500;
+  line-height: 1.5em;
   margin: 40px 0 24px;
 }
 
@@ -412,8 +413,8 @@ header {
   }
 
   .section-description {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.250em;
+    line-height: 1.750em;
     margin-left: 50%;
   }
 }
@@ -563,7 +564,7 @@ header {
   box-sizing: border-box;
   margin: auto;
   padding: 0;
-  width: 85%;
+  width: 100%;
 
   a {
     color: #FF9100;
@@ -613,16 +614,28 @@ header {
   }
 
   h3 {
+    color: #999;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 300;
     margin: 60px 0 10px 0;
 
   }
+
+  article {
+    background-color: #fff;
+  }
+}
+
+#miranda-barbershop {
+  background: url('/images/bg-barbearia-miranda.png') no-repeat;
+  background-size: 100%;
+  padding-top: 35%;
 }
 
 .project-description {
   margin: auto;
   max-width: 800px;
+  padding: 10px 0 0;
 
   ul {
     padding: 0;
@@ -642,6 +655,8 @@ header {
   p {
     color: #333;
     font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.5em;
   }
 }
 
